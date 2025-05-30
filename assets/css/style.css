@@ -682,3 +682,38 @@ footer{
         width: 100%;
     }
 }
+
+
+
+#video-resume {
+  padding: 4rem 1.5rem;
+  background-color: #f4f4f4;
+  text-align: center;
+}
+
+.video-container {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.video-container video,
+.video-container iframe {
+  width: 90%;
+  max-width: 700px;
+  height: 420px; /* Increased height */
+  border: 5px solid #0066ff;
+  border-radius: 16px;
+  padding: 10px;
+  background: #fff;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s ease;
+}
+
+.video-container video:hover,
+.video-container iframe:hover {
+  transform: scale(1.02);
+}
+
+
